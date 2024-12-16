@@ -1,0 +1,30 @@
+html, body {
+    background-color: black; /* Make entire background black */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    height: 100%; /* Ensure full height background */
+}
+
+.birthday-message {
+    font-size: 2em; /* Adjust font size as needed */
+    letter-spacing: 0.1em; /* Adjust letter spacing */
+    color: white;
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add some padding */
+    margin: 0; /* Remove default margins */
+}
+.birthday-message {
+    animation: glow 1s infinite;
+}
+
+@keyframes glow {
+    0% { text-shadow: 0 0 5px white; }
+    50% { text-shadow: 0 0 20px rgb(255, 0, 0); }
+    100% { text-shadow: 0 0 5px white; }
+}
+.birthday-message {
+   font-family: cursive;
+}
+
+
+
